@@ -1,0 +1,6 @@
+framework module Pods_Mom_Zang {
+  umbrella header "Pods-Mom Zang-umbrella.h"
+
+  export *
+  module * { export * }
+}
