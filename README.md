@@ -1,2 +1,2 @@
 # memories
-memory of my bestie "Mom Zang"
+21 birthday gift to my bestie "Mom Zang"
