@@ -22,7 +22,7 @@ class FootMarkViewContvarler:UIViewController, MKMapViewDelegate{
         Map.delegate = self
         
         for loc in locations.keys{
-            let span = MKCoordinateSpanMake(1, 1)
+            let span = MKCoordinateSpanMake(10, 10)
             let region = MKCoordinateRegion(center:locations[loc]!, span:span)
             
             Map.setRegion(region, animated: true)
@@ -45,7 +45,6 @@ class FootMarkViewContvarler:UIViewController, MKMapViewDelegate{
     
     
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        view.canShowCallout = true
         selectedPlace = (view.annotation?.title)!
         performSegue(withIdentifier: "MapToScroll", sender: view)
         
@@ -65,6 +64,8 @@ class FootMarkViewContvarler:UIViewController, MKMapViewDelegate{
             
             //print(sender)
         }
+        
+        
         
     }
     

@@ -33,7 +33,8 @@ class ScrollViewController:UIViewController{
         dbRef.child("FootMark").child(selectedPlace!).observeSingleEvent(of: .value, with: {snapshot in
             if snapshot.exists(){
                 let imageSets = snapshot.value as! [String:[String:String]]
-                for key in imageSets.keys{
+                let sortedKeys = Array(imageSets.keys).sorted()
+                for key in sortedKeys{
                     print(key)
                     let loc = imageSets[key]?["image"]
                     let message = imageSets[key]?["message"]

@@ -8,10 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B4C87600F49A6B8EEF2E3D08 /* Pods_Mom_Zang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B341494907733885F14FDD /* Pods_Mom_Zang.framework */; };
+		B95A2ABB1EBA91B00046A627 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A2ABA1EBA91B00046A627 /* DailyViewController.swift */; };
+		B95A2AC11EBA922B0046A627 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A2AC01EBA922B0046A627 /* PeopleViewController.swift */; };
+		B95A2AC31EBA923C0046A627 /* AwayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A2AC21EBA923C0046A627 /* AwayViewController.swift */; };
+		B95A2AC61EBA99340046A627 /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A2AC51EBA99340046A627 /* DailyTableViewCell.swift */; };
+		B95A2AC81EBA99820046A627 /* DailyScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A2AC71EBA99820046A627 /* DailyScrollViewController.swift */; };
+		B96D40511EBE95AB00DF1D9E /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D40501EBE95AB00DF1D9E /* PeopleTableViewCell.swift */; };
+		B96D40541EBED67A00DF1D9E /* WishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D40531EBED67A00DF1D9E /* WishesViewController.swift */; };
+		B96D40561EBFE62E00DF1D9E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D40551EBFE62E00DF1D9E /* HomeViewController.swift */; };
+		B96D405B1EBFECFC00DF1D9E /* song.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B96D405A1EBFECFC00DF1D9E /* song.m4a */; };
 		B97930281EAAA9E0006C9134 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97930271EAAA9E0006C9134 /* ScrollViewController.swift */; };
 		B979302A1EAB2B40006C9134 /* MomZang.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97930291EAB2B40006C9134 /* MomZang.swift */; };
 		B9BEE08C1EA80AFD00DD1031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE08B1EA80AFD00DD1031 /* AppDelegate.swift */; };
-		B9BEE08E1EA80AFD00DD1031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE08D1EA80AFD00DD1031 /* ViewController.swift */; };
 		B9BEE0911EA80AFD00DD1031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE08F1EA80AFD00DD1031 /* Main.storyboard */; };
 		B9BEE0941EA80AFD00DD1031 /* Mom_Zang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE0921EA80AFD00DD1031 /* Mom_Zang.xcdatamodeld */; };
 		B9BEE0961EA80AFD00DD1031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE0951EA80AFD00DD1031 /* Assets.xcassets */; };
@@ -42,11 +50,19 @@
 /* Begin PBXFileReference section */
 		0C507C45C44C8655C2CFEA35 /* Pods-Mom Zang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mom Zang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mom Zang/Pods-Mom Zang.debug.xcconfig"; sourceTree = "<group>"; };
 		91B341494907733885F14FDD /* Pods_Mom_Zang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mom_Zang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95A2ABA1EBA91B00046A627 /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		B95A2AC01EBA922B0046A627 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		B95A2AC21EBA923C0046A627 /* AwayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwayViewController.swift; sourceTree = "<group>"; };
+		B95A2AC51EBA99340046A627 /* DailyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
+		B95A2AC71EBA99820046A627 /* DailyScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyScrollViewController.swift; sourceTree = "<group>"; };
+		B96D40501EBE95AB00DF1D9E /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
+		B96D40531EBED67A00DF1D9E /* WishesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishesViewController.swift; sourceTree = "<group>"; };
+		B96D40551EBFE62E00DF1D9E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B96D405A1EBFECFC00DF1D9E /* song.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = song.m4a; sourceTree = "<group>"; };
 		B97930271EAAA9E0006C9134 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		B97930291EAB2B40006C9134 /* MomZang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomZang.swift; sourceTree = "<group>"; };
 		B9BEE0881EA80AFD00DD1031 /* Mom Zang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mom Zang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BEE08B1EA80AFD00DD1031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9BEE08D1EA80AFD00DD1031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9BEE0901EA80AFD00DD1031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9BEE0931EA80AFD00DD1031 /* Mom_Zang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mom_Zang.xcdatamodel; sourceTree = "<group>"; };
 		B9BEE0951EA80AFD00DD1031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +105,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B95A2AB81EBA91870046A627 /* FootMark */ = {
+			isa = PBXGroup;
+			children = (
+				B9BEE0BF1EA8BC3900DD1031 /* FootMarkViewController.swift */,
+				B97930271EAAA9E0006C9134 /* ScrollViewController.swift */,
+			);
+			name = FootMark;
+			sourceTree = "<group>";
+		};
+		B95A2AB91EBA919F0046A627 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				B95A2ABA1EBA91B00046A627 /* DailyViewController.swift */,
+				B95A2AC71EBA99820046A627 /* DailyScrollViewController.swift */,
+				B95A2AC41EBA991E0046A627 /* Cell */,
+			);
+			name = Daily;
+			sourceTree = "<group>";
+		};
+		B95A2ABC1EBA91CA0046A627 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B96D40551EBFE62E00DF1D9E /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B95A2ABD1EBA91D30046A627 /* Away */ = {
+			isa = PBXGroup;
+			children = (
+				B95A2AC21EBA923C0046A627 /* AwayViewController.swift */,
+			);
+			name = Away;
+			sourceTree = "<group>";
+		};
+		B95A2ABE1EBA920D0046A627 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				B96D40521EBE95B100DF1D9E /* Cell */,
+				B95A2AC01EBA922B0046A627 /* PeopleViewController.swift */,
+				B96D40531EBED67A00DF1D9E /* WishesViewController.swift */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		B95A2AC41EBA991E0046A627 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B95A2AC51EBA99340046A627 /* DailyTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		B96D40521EBE95B100DF1D9E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B96D40501EBE95AB00DF1D9E /* PeopleTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		B96D40571EBFE82400DF1D9E /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				B96D405A1EBFECFC00DF1D9E /* song.m4a */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
 		B9BEE07F1EA80AFC00DD1031 = {
 			isa = PBXGroup;
 			children = (
@@ -114,14 +199,14 @@
 		B9BEE08A1EA80AFD00DD1031 /* Mom Zang */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE0BD1EA84B4D00DD1031 /* GoogleService-Info.plist */,
-				B9BEE0BC1EA8255E00DD1031 /* Controllers */,
 				B9BEE08B1EA80AFD00DD1031 /* AppDelegate.swift */,
-				B9BEE08D1EA80AFD00DD1031 /* ViewController.swift */,
 				B97930291EAB2B40006C9134 /* MomZang.swift */,
 				B9BEE08F1EA80AFD00DD1031 /* Main.storyboard */,
 				B9BEE0951EA80AFD00DD1031 /* Assets.xcassets */,
+				B96D40571EBFE82400DF1D9E /* Music */,
+				B9BEE0BC1EA8255E00DD1031 /* Controllers */,
 				B9BEE0971EA80AFD00DD1031 /* LaunchScreen.storyboard */,
+				B9BEE0BD1EA84B4D00DD1031 /* GoogleService-Info.plist */,
 				B9BEE09A1EA80AFD00DD1031 /* Info.plist */,
 				B9BEE0921EA80AFD00DD1031 /* Mom_Zang.xcdatamodeld */,
 			);
@@ -149,8 +234,11 @@
 		B9BEE0BC1EA8255E00DD1031 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE0BF1EA8BC3900DD1031 /* FootMarkViewController.swift */,
-				B97930271EAAA9E0006C9134 /* ScrollViewController.swift */,
+				B95A2AB81EBA91870046A627 /* FootMark */,
+				B95A2AB91EBA919F0046A627 /* Daily */,
+				B95A2ABC1EBA91CA0046A627 /* Home */,
+				B95A2ABD1EBA91D30046A627 /* Away */,
+				B95A2ABE1EBA920D0046A627 /* People */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -283,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96D405B1EBFECFC00DF1D9E /* song.m4a in Resources */,
 				B9BEE0991EA80AFD00DD1031 /* LaunchScreen.storyboard in Resources */,
 				B9BEE0BE1EA84B4D00DD1031 /* GoogleService-Info.plist in Resources */,
 				B9BEE0961EA80AFD00DD1031 /* Assets.xcassets in Resources */,
@@ -359,12 +448,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95A2ABB1EBA91B00046A627 /* DailyViewController.swift in Sources */,
+				B95A2AC81EBA99820046A627 /* DailyScrollViewController.swift in Sources */,
+				B95A2AC61EBA99340046A627 /* DailyTableViewCell.swift in Sources */,
+				B95A2AC11EBA922B0046A627 /* PeopleViewController.swift in Sources */,
 				B9BEE0941EA80AFD00DD1031 /* Mom_Zang.xcdatamodeld in Sources */,
 				B9BEE0C01EA8BC3900DD1031 /* FootMarkViewController.swift in Sources */,
+				B95A2AC31EBA923C0046A627 /* AwayViewController.swift in Sources */,
 				B97930281EAAA9E0006C9134 /* ScrollViewController.swift in Sources */,
-				B9BEE08E1EA80AFD00DD1031 /* ViewController.swift in Sources */,
 				B9BEE08C1EA80AFD00DD1031 /* AppDelegate.swift in Sources */,
+				B96D40511EBE95AB00DF1D9E /* PeopleTableViewCell.swift in Sources */,
 				B979302A1EAB2B40006C9134 /* MomZang.swift in Sources */,
+				B96D40561EBFE62E00DF1D9E /* HomeViewController.swift in Sources */,
+				B96D40541EBED67A00DF1D9E /* WishesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
