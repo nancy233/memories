@@ -14,6 +14,7 @@ class FootMarkViewContvarler:UIViewController, MKMapViewDelegate{
     
     var selectedPlace:String?
     
+    
     @IBOutlet weak var Map: MKMapView!
     
     override func viewDidLoad() {
